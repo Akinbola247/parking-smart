@@ -1,0 +1,187 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(
+      to bottom right,#5b9dff 20%, #afc7ff 30%, #afc7ff 30%, #5b9dff 50%
+    );
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+  }
+  @keyframes movingGradient {
+    from { background-position : 0 0;}
+    to { background-position: 100% 100%;}
+  }
+  .navbar{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .nav-item{
+    padding-right: 30px;
+  }
+
+  .login {
+    margin-right: 30px;
+    border: none;
+    color: white;
+    background: none;
+    padding-top: 8px;
+  }
+  .signup {
+    background-color: yellow;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 25px;
+  }
+  .content {
+    margin-left: 50px;
+    margin-right: 0px;
+    color: white;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+  .download{
+    padding-top: 200px;
+    padding-right: 20px;
+  }
+  .grid-item{
+    text-align: center;
+    
+  }
+  .map{
+    display: flex;
+    padding-right: 40px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 100px;
+  }
+  
+  .book{
+    background-color: yellow;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 100px 8px;
+  }
+  .clickbook{
+   margin-left: 40%;
+   margin-right: 30%;
+   margin-top: 30px; 
+  }
+  .park-item{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr;
+    grid-gap: 2rem;
+    height: 50vh;
+    text-align: center;
+  }
+
+.trucks{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+    
+}
+
+.container{
+    display: none;
+    height: 100%;
+}
+  .container1{
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    color: white;
+  }
+  .container2{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  
+  .footer{
+    width: 100%;
+    background-color: #3781f0;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .foot{
+    padding: 15px 0px;
+  }
+  .second-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .btn{
+    margin-left: 10px;
+  }
+.presscolor{
+    background-color: red;
+}
+
+.parking2 > button{
+    background-color: yellow;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+}
+.park > button{
+    background-color: yellow;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+}
+
+@media only screen and (max-width: 550px){
+    .content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .grid-item{
+        text-align: center;
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    .download{
+        padding-top: 20px;
+    }
+
+    .clickbook{
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    .book{
+        background-color: yellow;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 100px 8px;
+    }
+    
+      .parking2 > button{
+        padding: 10px 10px;
+    }
+    .park > button{
+        padding: 10px 10px;
+    }
+
+    .container{
+        height: 200%;
+    }
+
+    }
+    
+        
