@@ -41,14 +41,14 @@ body {
     padding: 10px;
   }
   .download{
-    padding-top: 200px;
+    width: 100%;
+    padding-top: 100px;
     padding-right: 20px;
+    padding-bottom: 2px;
   }
-  .grid-item{
-    text-align: center;
-    
-  }
+  
   .map{
+    width:100%;
     display: flex;
     padding-right: 40px;
     border-bottom-right-radius: 100px;
@@ -56,7 +56,9 @@ body {
     border-bottom-left-radius: 30px;
     border-top-left-radius: 100px;
   }
-  
+  .bookyourspotnow{
+    text-align: center;
+  }
   .book{
     background-color: yellow;
     border-radius: 20px;
@@ -64,47 +66,19 @@ body {
     padding: 10px 100px 8px;
   }
   .clickbook{
-   margin-left: 40%;
-   margin-right: 30%;
-   margin-top: 30px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
   }
-  .park-item{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr;
-    grid-gap: 2rem;
-    height: 50vh;
-    text-align: center;
-  }
-
-.trucks{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    
-    
-}
-
-.container{
+  .container{
+    height: 500px;
+    color: white;
+    margin-top: 50px;
     display: none;
-    height: 100%;
-}
-  .container1{
-    height: 100%;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 40px;
-    color: white;
+
   }
-  .container2{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    color: white;
-  }
-  
-  
+    
   .footer{
     width: 100%;
     background-color: #3781f0;
@@ -128,26 +102,37 @@ body {
     margin-left: 10px;
   }
 .presscolor{
-    background-color: yellow;
-}
+    color: white;
+    background-image: linear-gradient(
+      to bottom right,#5b76ff 50%, #e96262 30%, #e96262  30%, #e96262 50%
+    );
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+  }
+  @keyframes movingGradient {
+    from { background-position : 0 0;}
+    to { background-position: 100% 100%;}
+  }
 
-.parking2 > button{
-    background-color: yellow;
+button {
+  background-color: yellow;
     border-radius: 20px;
     border: none;
-    padding: 10px 30px;
-}
-.park > button{
-    background-color: yellow;
-    border-radius: 20px;
-    border: none;
-    padding: 10px 30px;
+    padding: 10px 10px;
 }
 
-@media only screen and (max-width: 550px){
+.themed-grid-col{
+    height: 50px;
+    
+}
+
+@media only screen and (max-width: 900px){
     .content{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 0.4fr 1fr;
+    }
+    .download{
+      padding-bottom: 20px;
     }
     .grid-item{
         text-align: center;
@@ -170,18 +155,11 @@ body {
         border: none;
         padding: 10px 100px 8px;
     }
-    
-      .parking2 > button{
-        padding: 10px 10px;
-    }
-    .park > button{
-        padding: 10px 10px;
-    }
-
     .container{
-        height: 200%;
+        height: 720px;
     }
 
     }
     
+        
         
