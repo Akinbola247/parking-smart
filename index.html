@@ -65,45 +65,73 @@
         </div>
       </div>
     <div class="row mb-3 text-center">
-        <div class="col-6 col-md col-md themed-grid-col">
-            <button class="park1">Book slot 1 here</button> 
+        <div class="col-6 col-md col-md themed-grid-col">   
+          <button class="park1" onclick="openpop()">Book slot 1 here</button>
+         
+            <div class="one">              
+              <form class="slot-form-1">
+                <div class="close-btn" onclick="closeOne()">&times;</div>
+                <div class="row prow">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                  <div class="row prow">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="car reg number">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="car size">
+                    </div>
+                    <div class="timing">
+                      <h6>Parking time</h6><input type="time" id="appt" name="appt"
+                      min="07:00" max="18:00">
+                    </div> 
+              </form>
+              <button class="order">Order</button>
+              </div> 
+            </div>
+               
+          </div>                   
         </div>
         <div class="col-6 col-md col-md themed-grid-col">
-            <button class="park2">Book slot 2 here</button> 
+            <button class="park2" onclick="openpop()">Book slot 2 here</button> 
         </div>
         <div class="col-6 col-md col-md themed-grid-col">
-            <button class="park3" >Book slot 3 here</button> 
+            <button class="park3" onclick="openpop()" >Book slot 3 here</button> 
         </div>
         <div class="col-6 col-md col-md themed-grid-col">
-            <button class=" park4" >Book slot 4 here</button> 
+            <button class=" park4" onclick="openpop()">Book slot 4 here</button> 
         </div>
       </div>
     <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class=" park5" >Book slot 5 here</button> 
+            <button class=" park5" onclick="openpop()">Book slot 5 here</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park6">Book slot 6 here</button> 
+            <button class="park6"onclick="openpop()">Book slot 6 here</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park7">Book slot 7 here</button> 
+            <button class="park7" onclick="openpop()">Book slot 7 here</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park8">Book slot 8 here</button> 
+            <button class="park8" onclick="openpop()">Book slot 8 here</button> 
         </div>
     </div>
     <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class="park9" >Book slot 9 here</button> 
+            <button class="park9" onclick="openpop()">Book slot 9 here</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park10">Book slot 10 here</button> 
+            <button class="park10" onclick="openpop()">Book slot 10 here</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park11">Book slot 11 here</button> 
+            <button class="park11" onclick="openpop()">Book slot 11 here</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park12">Book slot 12 here</button> 
+            <button class="park12" onclick="openpop()">Book slot 12 here</button> 
         </div>
       </div>
       
@@ -114,35 +142,34 @@
       </div>
       <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck1" >Book Truck slot 1</button> 
+            <button class="Truck1" onclick="openpop()" >Book Truck slot 1</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck2">Book Truck slot 2</button> 
+            <button class="Truck2" onclick="openpop()">Book Truck slot 2</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck3">Book Truck slot 3</button> 
+            <button class="Truck3" onclick="openpop()">Book Truck slot 3</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck4">Book Truck slot 4</button> 
+            <button class="Truck4" onclick="openpop()">Book Truck slot 4</button> 
         </div>
       </div>
       <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck5">Book Truck slot 5</button> 
+            <button class="Truck5" onclick="openpop()">Book Truck slot 5</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck6">Book Truck slot 6</button> 
+            <button class="Truck6" onclick="openpop()">Book Truck slot 6</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck7">Book Truck slot 7</button> 
+            <button class="Truck7" onclick="openpop()">Book Truck slot 7</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck8">Book Truck slot 8</button> 
+            <button class="Truck8" onclick="openpop()">Book Truck slot 8</button> 
         </div>
       </div>
 
 </div>
-
 
 <div class="second-download">
     <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
@@ -159,6 +186,7 @@
        <p>copyright(c)Akinbola</p> 
     </div> 
 </div>
+
 <script src="parking.js"></script>
 </body>
 </html>
