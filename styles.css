@@ -63,7 +63,7 @@ body {
     background-color: yellow;
     border-radius: 20px;
     border: none;
-    padding: 10px 100px 8px;
+    padding: 10px 60px 8px;
   }
   .clickbook{
   display: flex;
@@ -78,6 +78,49 @@ body {
     display: none;
 
   }
+.one{
+  position: absolute;
+  left: 50%;
+  top:0;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%) scale(0.1);
+  visibility: hidden;
+  transition: ease-in-out 200ms;
+  
+}
+.open-one{
+  position: absolute;
+  left: 50%;
+  top:140%;
+  transform: translate(-50%, -50%) scale(1);
+  visibility: visible;
+}
+.timing{
+  color: white;
+  padding: 20px 0px;
+}
+.close-btn{
+  position: absolute;
+  right: 10%;
+  font-size: 1.5em;
+  cursor: pointer; 
+}
+.close-btn :hover{
+  background-color: black;
+}
+.slot-form-1{
+  width: 100%;
+  background-color: #3781f0;
+  padding: 50px 50px 50px 50px;
+  border-radius: 25px;
+}
+.prow{
+  padding: 30px;
+}
+
     
   .footer{
     width: 100%;
@@ -146,20 +189,25 @@ button {
     }
 
     .clickbook{
-        margin-left: 20%;
+        margin-left: 10%;
         margin-right: 10%;
     }
     .book{
         background-color: yellow;
         border-radius: 20px;
         border: none;
-        padding: 10px 100px 8px;
+        padding: 10px 20px 8px;
     }
     .container{
         height: 720px;
     }
 
     }
+    .one{
+      width: 400px;
+    }
     
+
+            
         
         
