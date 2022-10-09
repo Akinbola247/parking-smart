@@ -42,6 +42,58 @@
           </div>
         </div>
       </nav>
+
+  <div class="getstarted">
+    <div class="dialog">
+      <div class="close-btn">&times;</div>
+      <form>
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fname" name="fname" value=" "><br>
+        <label for="lname">Car reg Number:</label><br>
+        <input type="text" id="regnum" name="lname" value=" "><br><br>
+        <label for="carsize">Car size:</label>
+  <select name="carsizes" id="carsize">
+    <option></option>
+    <option>Small</option>
+    <option>Large</option>
+  </select>
+  <br><br>
+  <label for="slot">Confirm slot:</label>
+  <select name="slots" id="slots">
+    <option class="options"></option>
+    <option class="options">slot 1</option>
+    <option class="options">slot 2</option>
+    <option class="options">slot 3</option>
+    <option class="options">slot 4</option>
+    <option class="options">slot 5</option>
+    <option class="options">slot 6</option>
+    <option class="options">slot 7</option>
+    <option class="options">slot 8</option>
+    <option class="options">slot 9</option>
+    <option class="options">slot 10</option>
+    <option class="options">slot 11</option>
+    <option class="options">slot 12</option>
+    <option class="options">Truck 1</option>
+    <option class="options">Truck 2</option>
+    <option class="options">Truck 3</option>
+    <option class="options">Truck 4</option>
+    <option class="options">Truck 5</option>
+    <option class="options">Truck 6</option>
+    <option class="options">Truck 7</option>
+    <option class="options">Truck 8</option>
+  </select>
+  <br><br>
+        
+        <h6>Parking time</h6><input type="time" id="appt" name="appt"
+            min="07:00" max="18:00">
+      </form>
+      <button class="order">Order</button>
+    </div>
+
+  </div>
+
+
+
 <div class="content"> 
     <div class="grid-item download" >
         <h1> Park Smart, Pay Less</h1>
@@ -54,8 +106,9 @@
         <img class="map" src="images/map.jpeg" alt="map">
       </div>
 </div>
+
 <div class="clickbook" > 
-    <button class="book" onclick="myFunction()"><h6>BOOK A SLOT</h6></button> 
+    <button class="book"><h6>BOOK A SLOT</h6></button> 
 </div>
 <div class="container">
     <h1 class="bookyourspotnow">Book Your parking Spot Now!</h1>
@@ -66,72 +119,44 @@
       </div>
     <div class="row mb-3 text-center">
         <div class="col-6 col-md col-md themed-grid-col">   
-          <button class="park1" onclick="openpop()">Book slot 1 here</button>
-         
-            <div class="one">              
-              <form class="slot-form-1">
-                <div class="close-btn" onclick="closeOne()">&times;</div>
-                <div class="row prow">
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="First name">
-                  </div>
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name">
-                  </div>
-                  <div class="row prow">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="car reg number">
-                    </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="car size">
-                    </div>
-                    <div class="timing">
-                      <h6>Parking time</h6><input type="time" id="appt" name="appt"
-                      min="07:00" max="18:00">
-                    </div> 
-              </form>
-              <button class="order">Order</button>
-              </div> 
-            </div>
-               
-          </div>                   
+          <button class="park1">slot 1</button>                  
         </div>
         <div class="col-6 col-md col-md themed-grid-col">
-            <button class="park2" onclick="openpop()">Book slot 2 here</button> 
+            <button class="park2">slot 2</button> 
         </div>
         <div class="col-6 col-md col-md themed-grid-col">
-            <button class="park3" onclick="openpop()" >Book slot 3 here</button> 
+            <button class="park3">slot 3</button> 
         </div>
         <div class="col-6 col-md col-md themed-grid-col">
-            <button class=" park4" onclick="openpop()">Book slot 4 here</button> 
+            <button class=" park4">slot 4</button> 
         </div>
       </div>
     <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class=" park5" onclick="openpop()">Book slot 5 here</button> 
+            <button class=" park5">slot 5</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park6"onclick="openpop()">Book slot 6 here</button> 
+            <button class="park6">slot 6</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park7" onclick="openpop()">Book slot 7 here</button> 
+            <button class="park7">slot 7</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park8" onclick="openpop()">Book slot 8 here</button> 
+            <button class="park8">slot 8</button> 
         </div>
     </div>
     <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class="park9" onclick="openpop()">Book slot 9 here</button> 
+            <button class="park9">slot 9</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park10" onclick="openpop()">Book slot 10 here</button> 
+            <button class="park10">slot 10</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park11" onclick="openpop()">Book slot 11 here</button> 
+            <button class="park11">slot 11</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="park12" onclick="openpop()">Book slot 12 here</button> 
+            <button class="park12">slot 12</button> 
         </div>
       </div>
       
@@ -142,30 +167,30 @@
       </div>
       <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck1" onclick="openpop()" >Book Truck slot 1</button> 
+            <button class="Truck1">Truck 1</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck2" onclick="openpop()">Book Truck slot 2</button> 
+            <button class="Truck2">Truck 2</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck3" onclick="openpop()">Book Truck slot 3</button> 
+            <button class="Truck3">Truck 3</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck4" onclick="openpop()">Book Truck slot 4</button> 
+            <button class="Truck4">Truck 4</button> 
         </div>
       </div>
       <div class="row mb-3 text-center">
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck5" onclick="openpop()">Book Truck slot 5</button> 
+            <button class="Truck5">Truck 5</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck6" onclick="openpop()">Book Truck slot 6</button> 
+            <button class="Truck6">Truck 6</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck7" onclick="openpop()">Book Truck slot 7</button> 
+            <button class="Truck7">Truck 7</button> 
         </div>
         <div class="col-6 col-md themed-grid-col">
-            <button class="Truck8" onclick="openpop()">Book Truck slot 8</button> 
+            <button class="Truck8">Truck 8</button> 
         </div>
       </div>
 
@@ -174,6 +199,92 @@
 <div class="second-download">
     <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
     <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button> 
+</div>
+
+<div class="row">
+  <div class="column1">
+    <h6 class="userdetails1"></h6> 
+    <button class="exit1">Exit</button>
+  </div>
+  <div class="column2">
+    <h6 class="userdetails2"></h6> 
+    <button class="exit2">Exit</button>
+  </div>
+  <div class="column3">
+    <h6 class="userdetails3"></h6> 
+    <button class="exit3">Exit</button>
+  </div>
+  <div class="column4">
+    <h6 class="userdetails4"></h6> 
+    <button class="exit4">Exit</button>
+  </div>
+  <div class="column5">
+    <h6 class="userdetails5"></h6> 
+    <button class="exit5">Exit</button>
+  </div>
+  <div class="column6">
+    <h6 class="userdetails6"></h6> 
+    <button class="exit6">Exit</button>
+  </div>
+  <div class="column7">
+    <h6 class="userdetails7"></h6> 
+    <button class="exit7">Exit</button>
+  </div>
+  <div class="column8">
+    <h6 class="userdetails8"></h6> 
+    <button class="exit8">Exit</button>
+  </div>
+  <div class="column9">
+    <h6 class="userdetails9"></h6> 
+    <button class="exit9">Exit</button>
+  </div>
+  <div class="column10">
+    <h6 class="userdetails10"></h6> 
+    <button class="exit10">Exit</button>
+  </div>
+  <div class="column11">
+    <h6 class="userdetails11"></h6> 
+    <button class="exit11">Exit</button>
+  </div>
+  <div class="column12">
+    <h6 class="userdetails12"></h6> 
+    <button class="exit12">Exit</button>
+  </div>
+
+
+  <div class="tcolumn1">
+    <h6 class="tuserdetails1"></h6> 
+    <button class="texit1">Exit</button>
+  </div>
+  <div class="tcolumn2">
+    <h6 class="tuserdetails2"></h6> 
+    <button class="texit2">Exit</button>
+  </div>
+  <div class="tcolumn3">
+    <h6 class="tuserdetails3"></h6> 
+    <button class="texit3">Exit</button>
+  </div>
+  <div class="tcolumn4">
+    <h6 class="tuserdetails4"></h6> 
+    <button class="texit4">Exit</button>
+  </div>
+  <div class="tcolumn5">
+    <h6 class="tuserdetails5"></h6> 
+    <button class="texit5">Exit</button>
+  </div>
+  <div class="tcolumn6">
+    <h6 class="tuserdetails6"></h6> 
+    <button class="texit6">Exit</button>
+  </div>
+  <div class="tcolumn7">
+    <h6 class="tuserdetails7"></h6> 
+    <button class="texit7">Exit</button>
+  </div>
+  <div class="tcolumn8">
+    <h6 class="tuserdetails8"></h6> 
+    <button class="texit8">Exit</button>
+  </div>
+  
 </div>
 
 <div class="footer">
@@ -190,4 +301,3 @@
 <script src="parking.js"></script>
 </body>
 </html>
-<!-- Testing out the waters -->
