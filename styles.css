@@ -78,25 +78,31 @@ body {
     display: none;
 
   }
-.one{
-  position: absolute;
-  left: 50%;
-  top:0;
-  width: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(-50%, -50%) scale(0.1);
-  visibility: hidden;
-  transition: ease-in-out 200ms;
   
-}
+  .getstarted{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(52, 41, 41, 0.68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: ease-in-out 200ms;
+    transform: translate(0%, 0%) scale(0.2);
+  }
+  .dialog{
+    width: 500px;
+    height: 400px;
+    background-color: #3781f0;
+    padding: 50px;
+  }
+
 .open-one{
   position: absolute;
-  left: 50%;
-  top:140%;
-  transform: translate(-50%, -50%) scale(1);
+  top : 78%;
   visibility: visible;
+  transform: translate(0%, 0%) scale(1);
 }
 .timing{
   color: white;
@@ -104,19 +110,15 @@ body {
 }
 .close-btn{
   position: absolute;
-  right: 10%;
+  right: 35%;
+  top: 20%;
   font-size: 1.5em;
   cursor: pointer; 
 }
 .close-btn :hover{
   background-color: black;
 }
-.slot-form-1{
-  width: 100%;
-  background-color: #3781f0;
-  padding: 50px 50px 50px 50px;
-  border-radius: 25px;
-}
+
 .prow{
   padding: 30px;
 }
@@ -169,6 +171,149 @@ button {
     
 }
 
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.userdetails1{
+  display: inline;
+}
+.userdetails2{
+  display: inline;
+}
+.userdetails3{
+  display: inline;
+}
+.userdetails4{
+  display: inline;
+}
+.userdetails5{
+  display: inline;
+}
+.userdetails6{
+  display: inline;
+}
+.userdetails7{
+  display: inline;
+}
+.userdetails8{
+  display: inline;
+}
+.userdetails9{
+  display: inline;
+}
+.userdetails10{
+  display: inline;
+}
+.userdetails11{
+  display: inline;
+}
+.userdetails12{
+  display: inline;
+}
+
+.tuserdetails1{
+  display: inline;
+}
+.tuserdetails2{
+  display: inline;
+}
+.tuserdetails3{
+  display: inline;
+}
+.tuserdetails4{
+  display: inline;
+}
+.tuserdetails5{
+  display: inline;
+}
+.tuserdetails6{
+  display: inline;
+}
+.tuserdetails7{
+  display: inline;
+}
+.tuserdetails8{
+  display: inline;
+}
+
+
+
+.column1{
+  display: none;
+}
+.column2{
+  display: none;
+}
+.column3{
+  display: none;
+}
+.column4{
+  display: none;
+}
+.column5{
+  display: none;
+}
+.column6{
+  display: none;
+}
+.column7{
+  display: none;
+}
+.column8{
+  display: none;
+}
+.column9{
+  display: none;
+}
+.column10{
+  display: none;
+}
+.column11{
+  display: none;
+}
+.column12{
+  display: none;
+}
+
+.tcolumn1{
+  display: none;
+}
+.tcolumn2{
+  display: none;
+}
+.tcolumn3{
+  display: none;
+}
+.tcolumn4{
+  display: none;
+}
+.tcolumn5{
+  display: none;
+}
+.tcolumn6{
+  display: none;
+}
+.tcolumn7{
+  display: none;
+}
+.tcolumn8{
+  display: none;
+}
+
+
+
+
+
+
+
+.visible{
+  display: block;
+}
+
+
+
 @media only screen and (max-width: 900px){
     .content{
         grid-template-columns: 1fr;
@@ -208,6 +353,4 @@ button {
     }
     
 
-            
-        
         
